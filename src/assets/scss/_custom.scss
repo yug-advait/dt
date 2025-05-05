@@ -1,0 +1,32 @@
+//color
+$white: #ffffff;
+$black: #000000;
+$blue: #1c20a4;
+
+//common
+$custom_theme_bg: $white;
+$custome_theme_light_color: rgba($blue, 0.3);
+
+//button
+.btn-custom-theme {
+  background-color: $blue !important;
+  color: $blue;
+}
+
+// dashboard icons
+.bg-custom-theme {
+  background-color: $blue !important;
+  color: $white;
+}
+
+.bg-custom-theme-icon {
+  background-color: $blue;
+  color: $white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.text-success {
+  --bs-text-opacity: 1;
+  color: $blue !important;
+}

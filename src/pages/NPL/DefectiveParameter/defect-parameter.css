@@ -1,0 +1,141 @@
+/* 🌟 General Page Styling */
+.defective-parameter-page {
+  background-color: #f4f7fc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* 🚀 Container */
+.defective-container {
+  padding: 20px;
+}
+ 
+/* 🔄 Row Styling */
+.defective-row {
+  justify-content: center;
+}
+ 
+/* ⏳ Timer Section */
+.defective-timer-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+ 
+.defective-timer {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+.defective-timer i {
+  margin-right: 12px;
+}
+ 
+/* 🏗️ Card Styling */
+.defective-card {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+}
+ 
+.defective-card-header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+ 
+.defective-card-body {
+  padding: 30px;
+}
+ 
+/* ⏳ Timeout Screen */
+.defective-timeout {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #FF7E5F, #feb47b);
+}
+ 
+.defective-timeout-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+}
+ 
+/* ⚠️ Timeout Message */
+.defective-timeout-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+ 
+.defective-timeout-message {
+  font-size: 24px;
+  color: #d9534f;
+  font-weight: bold;
+}
+ 
+/* 🔄 Retry Button */
+.defective-retry-button {
+  padding: 12px 25px;
+  background-color: #FF6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ 
+.defective-retry-button:hover {
+  background-color: #e04b35;
+}
+ 
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+  .defective-card-body {
+    padding: 20px;
+  }
+}
+ 
+@media (max-width: 768px) {
+  .defective-container {
+    padding: 15px;
+  }
+ 
+  .defective-timeout-box {
+    padding: 30px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .defective-timeout-title {
+    font-size: 24px;
+  }
+ 
+  .defective-timeout-message {
+    font-size: 18px;
+  }
+ 
+  .defective-retry-button {
+    font-size: 14px;
+  }
+}

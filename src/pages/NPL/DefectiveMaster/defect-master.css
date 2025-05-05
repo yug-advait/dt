@@ -1,0 +1,233 @@
+/* Container */
+.defective-master-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Ensures center alignment for all sections */
+  width: 100%;
+  box-sizing: border-box;
+}
+ 
+/* Form Section */
+.defective-master-form-container {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.defective-master-form-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+ 
+.defective-master-form-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+ 
+/* Table Section */
+.defective-master-table-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.defective-master-table-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+ 
+.defective-master-table-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+ 
+/* Table Styling */
+.defective-master-styled-table {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+ 
+.defective-master-table-head {
+  background-color: #ff4081;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+ 
+.defective-master-table-body {
+  text-align: center;
+}
+ 
+.defective-master-table-row td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 1rem;
+}
+ 
+/* Answer Colors */
+.answer-yes {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+ 
+.answer-yes:hover {
+  color: #28a745;
+  transform: scale(1.1);
+}
+ 
+.answer-no {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
+}
+ 
+.answer-no:hover {
+  color: #dc3545;
+  transform: scale(1.1);
+}
+ 
+/* No Records Found */
+.defective-master-no-records {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px;
+}
+ 
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .defective-master-container {
+    padding: 15px;
+  }
+ 
+  .defective-master-form-card,
+  .defective-master-table-card {
+    padding: 15px;
+    border-radius: 10px;
+  }
+ 
+  .defective-master-table-head {
+    font-size: 0.9rem;
+  }
+ 
+  .defective-master-table-row td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+ 
+@media (max-width: 768px) {
+  .defective-master-form-title,
+  .defective-master-table-title {
+    font-size: 1.4rem;
+  }
+ 
+  .defective-master-table-head {
+    font-size: 0.85rem;
+  }
+ 
+  .defective-master-table-row td {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+}
+ 
+@media (max-width: 600px) {
+  .defective-master-container {
+    padding: 10px;
+  }
+ 
+  .defective-master-form-card,
+  .defective-master-table-card {
+    padding: 12px;
+    border-radius: 8px;
+  }
+ 
+  .defective-master-form-title,
+  .defective-master-table-title {
+    font-size: 1.3rem;
+  }
+ 
+  .defective-master-table-head {
+    font-size: 0.8rem;
+  }
+ 
+  .defective-master-table-row td {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+ 
+  /* Stack Table for Small Screens */
+  .defective-master-styled-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .defective-master-form-title,
+  .defective-master-table-title {
+    font-size: 1.2rem;
+  }
+ 
+  .defective-master-table-head {
+    font-size: 0.75rem;
+  }
+ 
+  .defective-master-table-row td {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+ 
+  .answer-yes,
+  .answer-no {
+    font-size: 0.9rem;
+  }
+}
+ 
+@media (max-width: 360px) {
+  .defective-master-form-title,
+  .defective-master-table-title {
+    font-size: 1.1rem;
+  }
+ 
+  .defective-master-table-head {
+    font-size: 0.7rem;
+  }
+ 
+  .defective-master-table-row td {
+    font-size: 0.7rem;
+    padding: 4px;
+  }
+ 
+  .answer-yes,
+  .answer-no {
+    font-size: 0.85rem;
+  }
+}

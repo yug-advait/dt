@@ -1,0 +1,11 @@
+/* TASKS */
+export const GET_PR = "GET_PR"
+export const GET_PR_REQUEST = "GET_PR_REQUEST"
+export const ADD_PR_REQUEST = "ADD_PR_REQUEST"
+export const UPDATE_PR_REQUEST = "UPDATE_PR_REQUEST"
+export const DELETE_PR_REQUEST = "DELETE_PR_REQUEST"
+export const GET_PR_SUCCESS = "GET_PR_SUCCESS"
+export const ADD_PR_SUCCESS = "ADD_PR_SUCCESS"
+export const UPDATE_PR_SUCCESS = "UPDATE_PR_SUCCESS"
+export const DELETE_PR_SUCCESS = "DELETE_PR_SUCCESS"
+export const GET_PR_FAIL = "GET_PR_FAIL"

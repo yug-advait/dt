@@ -1,0 +1,11 @@
+/* TASKS */
+export const GET_PO = "GET_PO"
+export const GET_PO_REQUEST = "GET_PO_REQUEST"
+export const ADD_PO_REQUEST = "ADD_PO_REQUEST"
+export const UPDATE_PO_REQUEST = "UPDATE_PO_REQUEST"
+export const DELETE_PO_REQUEST = "DELETE_PO_REQUEST"
+export const GET_PO_SUCCESS = "GET_PO_SUCCESS"
+export const ADD_PO_SUCCESS = "ADD_PO_SUCCESS"
+export const UPDATE_PO_SUCCESS = "UPDATE_PO_SUCCESS"
+export const DELETE_PO_SUCCESS = "DELETE_PO_SUCCESS"
+export const GET_PO_FAIL = "GET_PO_FAIL"

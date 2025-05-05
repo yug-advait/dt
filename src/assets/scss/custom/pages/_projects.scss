@@ -1,0 +1,33 @@
+// 
+// projects.scss
+//
+
+// project list
+
+.project-list-table{
+    border-collapse:separate; 
+    border-spacing:0 12px; 
+  tr{
+    background-color: $card-bg;
+  }
+  
+}
+.custom-welcome-section {
+  background-color: #fbfffc;
+  color: #202221;
+
+  h5,
+  p {
+    color: #fbfffc; 
+  }
+}
+.custom-login-btn {
+  background-color: #fbfffc !important;
+  border-color: #090909 !important;
+  color: #000000;
+
+  &:hover {
+    background-color: darken(#000000, 10%);
+    border-color: darken(#000000, 10%);
+  }
+}

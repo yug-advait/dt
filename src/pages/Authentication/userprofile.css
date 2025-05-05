@@ -1,0 +1,94 @@
+/* UserProfile.css */
+
+.page-content {
+    background-color: #f8f9fa;
+    padding: 30px;
+  }
+  
+  .user-details-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  
+  .user-details-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(230, 8, 8, 0.1);
+    border: none;
+    background-color: #ffffff;
+  }
+  
+  .user-details-col {
+    margin-bottom: 20px;
+  }
+  
+  .user-detail-item {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #495057;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .user-detail-item:last-child {
+    border-bottom: none;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  .avatar-md {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-info h5 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .user-info p {
+    color: #6c757d;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 767.98px) {
+    .user-details-container {
+      padding: 10px;
+    }
+  
+    .user-details-card {
+      margin-bottom: 20px;
+    }
+  
+    .user-details-col {
+      margin-bottom: 15px;
+    }
+  }
+  
